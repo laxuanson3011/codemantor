@@ -1,26 +1,40 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Btngethelpnow from './components/Btngethelpnow';
+import Btnhowitworks from './components/Btnhowitworks';
+import Conter from './components/Conter';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+          {/* phan menu */}
+                  <div className="container-fluid">
+                    <div className="center">
+                      <div className="text-center">
+                        <div className="page-header">
+                            <h1>Find a developer for</h1>
+                            <h1> live programming help & freelance jobs</h1>
+                            <div className="btn">
+                              <Btngethelpnow/>
+                              <Btnhowitworks/>
+                            </div>
+                        </div>    
+                      </div>
+                    </div>
+                    <div id="box"> 
+                      <div className="img">
+                        <img src="https://next-cdn.codementor.io/static/images/landing-page/hero-l.png" class="img-fluid"/>
+                      </div></div>
+                  <div className="wrapper">
+                    <h2>On-demand marketplace</h2>
+                    <h2>for software developers</h2>
+                  </div>
+                  <div id="main">
+                    <Conter/>
+                  </div>
+                </div>
+      </div>   
     );
   }
 }
