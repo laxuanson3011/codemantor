@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
-import Btngethelpnow from './components/Btngethelpnow';
-import Btnhowitworks from './components/Btnhowitworks';
+import Btngethelpnow from './components/bottoms/Btngethelpnow';
+import Btnhowitworks from './components/bottoms/Btnhowitworks';
 import Conter from './components/Conter';
+import Canter from './components/Canter';
+import Connectwith from './components/Connectwith';
+import CenterMode from './components/CenterMode';
+import Btnbecome from './components/bottoms/Btnbecome';
 
 class App extends Component {
   render() {
@@ -10,6 +14,8 @@ class App extends Component {
       <div className="App">
           {/* phan menu */}
                   <div className="container-fluid">
+                  <div className="row">
+                  <div className="col-md-12 col-xs-12 col-lg-12 col-sm-12">
                     <div className="center">
                       <div className="text-center">
                         <div className="page-header">
@@ -22,16 +28,49 @@ class App extends Component {
                         </div>    
                       </div>
                     </div>
-                    <div id="box"> 
+                    <div className="box"> 
                       <div className="img">
-                        <img src="https://next-cdn.codementor.io/static/images/landing-page/hero-l.png" class="img-fluid"/>
-                      </div></div>
+                        <img src="https://next-cdn.codementor.io/static/images/landing-page/hero-l.png" className="img-responsive" alt="codemen"/>
+                      </div>
+                    </div>
                   <div className="wrapper">
-                    <h2>On-demand marketplace</h2>
-                    <h2>for software developers</h2>
+                    <h2 className="on">On-demand marketplace</h2>
+                    <h2 className="on">for software developers</h2>
                   </div>
                   <div id="main">
-                    <Conter/>
+                    <div className="top">
+                      <Conter/>
+                    </div>
+                    <div className="bottom">
+                      <Canter/>
+                    </div>
+                  </div>
+                  <div id="pagebody">
+                    <div className="title">
+                    <h1 className="connect">Connect with 8000+ top developers anytime</h1>
+                    </div>
+                    <div className="icom">
+                      <Connectwith/>
+                    </div>
+                  </div>
+                  <div className="slider">
+                    <CenterMode/>
+                  </div>
+                  <div id="text">
+                    <div className="txtbottom">
+                      <div className="text-center">
+                     
+                        <h2 className="getstarted">Get Started Today</h2>
+                        <div className="btn">
+                              <Btngethelpnow/>
+                              <div className="or">or</div>
+                              <Btnbecome/>
+                        </div>
+                      
+                      </div>
+                    </div>
+                  </div>
+                  </div>
                   </div>
                 </div>
       </div>   

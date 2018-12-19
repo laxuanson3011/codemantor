@@ -1,0 +1,36 @@
+img.w-50{
+    margin-left: 95px;  
+}
+.purport{
+    background: transparent;
+    font-weight: bold;
+    padding: 0px;
+    color: #003648;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.link{
+    color: #333;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #333;
+}
+a:hover{
+    color: #333;
+    text-decoration: none;
+}
+div.name{
+    font-family: 'Raleway',sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+div.description{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    color: #999;
+}

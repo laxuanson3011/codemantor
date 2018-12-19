@@ -1,0 +1,9 @@
+.btn-stared{
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 32px;
+    line-height: 1.5;
+    background-color: #38d3b6;
+    color: #fff;
+    border-radius: 3px;
+}

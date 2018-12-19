@@ -1,0 +1,82 @@
+ @media (max-width:1140px){
+ .section{
+    flex: 1.5;
+    perspective: 200px;
+    padding-bottom: 40px;
+    margin-left: 10px;
+ }
+ .section img{
+   width: 100%;
+   height: 100%;
+   box-shadow: 4px 8px 16px 3px rgba(0,0,0,0.24), 0 4px 8px 0 rgba(0,0,0,0.12);
+   border: solid 1px #dfe4e6;
+   border-radius: 3px;
+   transform: scale(0.9) rotateY(-3deg); 
+ } 
+
+ h4.mentor{
+   margin: 0;
+   font-size: 20px;
+   line-height: 1.5;
+   text-align: left;
+   color: #666;
+ }
+ h3{
+   font-size: 36px;
+   font-weight: bold;
+   line-height: 1.5;
+   text-align: left;
+   color: #003648;
+   margin-top: 5px;
+   max-width: 440px;
+ }
+
+li.list-group{
+   font-size: 16px;
+   color: #666;
+   align-items: flex-start;
+ }
+.list-group{
+   margin-bottom: 15px;
+}
+.list-group-flush {
+   padding: 0px;
+   margin-left: 50px;
+} 
+i {
+   width: 32px;
+   height: 30px;
+   background-size: 800%;
+}
+i.get{
+   background-position: 60% 84%;
+   background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
+   position: absolute;
+   left: 15px;
+   top: 150px;
+}
+i.personalize{
+   background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
+   background-position: 32% 84%;
+   position: absolute;
+   left: 15px;
+   top: 185px;
+}
+i.learn{
+   background-position: 17% 84%; 
+   background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
+   position: absolute;
+   left: 15px;
+   top: 220px;
+ }
+ div.Btn{
+  text-align: left;
+ }
+ 
+ .pic img{
+  width: 462px;
+  height: 194px;
+  text-align: left;
+  margin-top: 20px;
+ }
+}
