@@ -1,41 +1,37 @@
-
+@media(min-width:300px){
   body {
     text-align: center;
   }
-
-  .center {
-    background-image: linear-gradient(294deg,#006080,#006181 47%,#003648);
+.text-center{
+  background-image: linear-gradient(294deg,#006080,#006181 47%,#003648);
     z-index: 2;
     height:500px;
-  }
-.text-center{
-  background-image: url(https://next-cdn.codementor.io/static/images/landing-page/bg-lines-1.png);
+    text-align: center;
 }
-
 .page-header{
+  background-image: url(https://next-cdn.codementor.io/static/images/landing-page/bg-lines-1.png);
   text-align: center;
 }
-h1{
+.display-5{
   color: ghostwhite;
   font-weight: bold;
   text-align: center;
-  padding-top: 2px;
 }
- .box{
-  position: absolute; 
-  padding: 0;
-  top: auto;  
-}
-@media(max-width:50%){
-  .box img{ 
-
+ .rounded{ 
+    height: 300px;
     z-index: 1;
+    text-align: center;
+    position: relative;
+    top: -200px;
   }
-}
-
-.wrapper{
-  padding-top: 140px;
-  margin-bottom: 10px;
+.on{
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+  color: #003648;
+  position: relative;
+  top:-100px;
 }
 #main{
   text-align: center;
@@ -53,7 +49,6 @@ h1.connect{
   line-height: 1.5;
   text-align: center;
   color: #003648;
-  
 }
 div.title{
   padding-top: 50px;
@@ -81,14 +76,17 @@ h2.getstarted{
   text-align: center;
   color: #fff;
 }
-div.or{
+div.tx{
   font-size: 16px;
   color: rgba(255,255,255,0.4);
-  position: absolute;
-  padding: 10px;
-  margin-left: 185px;
-  margin-top: -50px;
+  margin: 10px;
 }
-div.btn{
-  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .text-center{
+    background-image: linear-gradient(294deg,#006080,#006181 47%,#003648);
+      z-index: 2;
+      height:600px;
+      text-align: center;
+  } 
 }

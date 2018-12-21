@@ -1,16 +1,4 @@
-.left{
-    flex: 1.7;
-    perspective: 200px;
-    padding-bottom: 40px;
-}
-
-.left img{
-    width: 100%;
-    box-shadow: -4px 8px 16px 3px rgba(0,0,0,0.24), 0 4px 8px 0 rgba(0,0,0,0.12);
-    border: solid 1px #dfe4e6;
-    border-radius: 3px;
-    transform: scale(0.9) rotateY(2deg);
-}
+@media(min-width:300px){
 h4.freelance{
     margin: 0;
     font-size: 20px;
@@ -25,37 +13,32 @@ h3{
     text-align: left;
     color: #003648;
     margin-top: 5px;
-    max-width: 440px;
 }
-div.item{
+div.itemr{
     font-size: 16px;
     color: #666;
     text-align: left;
     line-height: 2.5;
 }
-i {
-    width: 32px;
-    height: 30px;
-    background-size: 800%;
+div.Btn{
+    text-align: left;
+   }
+   
+   .pic img{
+    height: 125px;
+    text-align: left;
+    margin-top: 20px;
+   }
+.rounded-rcircle{
+    box-shadow: 4px 8px 16px 3px rgba(0,0,0,0.24), 0 4px 8px 0 rgba(0,0,0,0.12);
+    border: solid 1px #dfe4e6;
+    border-radius: 3px;
+    transform: scale(0.9) rotateY(2deg);
 }
-i.find{
-    background-position: 46% 84%;
-    background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
-    position: absolute;
-    left: 15px;
-    top: 155px;
+.left{
+    flex: 1.5;
+    perspective: 200px;
+    padding-bottom: 40px;
+    margin-left: 10px;
 }
-i.build{
-    background-position: 75% 84%;
-    background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
-    position: absolute;
-    left: 15px;
-    top: 195px;
-}
-i.turn{
-    background-image: url(https://next-cdn.codementor.io/static/images/landing-page/icons/sprite.png);
-    background-position: 89.2857% 84.3750%;
-    position: absolute;
-    left: 15px;
-    top: 235px;
 }

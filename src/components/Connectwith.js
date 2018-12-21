@@ -39,7 +39,7 @@ class Connectwith extends Component {
             </div>
             <div className="row">
               <div className="col-sm-12 col-md-12 col-xs-12 col-lg-12">
-                <img src="https://next-cdn.codementor.io/static/images/landing-page/dev-section-l.png" className="mx-auto d-block" alt="dev"/>
+                <img src="https://next-cdn.codementor.io/static/images/landing-page/dev-section-l.png" className="img-thumbnail" alt="dev"/>
               </div>
             </div>
             <h2>What you'll find on Codementor</h2>

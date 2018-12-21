@@ -1,3 +1,4 @@
+@media(min-width:300px){
 .btn-stared{
     font-weight: bold;
     font-size: 16px;
@@ -6,4 +7,6 @@
     background-color: #38d3b6;
     color: #fff;
     border-radius: 3px;
+    
+}
 }

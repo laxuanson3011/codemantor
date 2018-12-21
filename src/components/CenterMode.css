@@ -1,6 +1,4 @@
-img.w-50{
-    margin-left: 95px;  
-}
+@media(min-width:300px){
 .purport{
     background: transparent;
     font-weight: bold;
@@ -33,4 +31,8 @@ div.description{
     line-height: 1.5;
     text-align: center;
     color: #999;
+}
+.w-10{
+    height: 20px;
+}
 }

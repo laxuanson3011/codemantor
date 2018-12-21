@@ -13,7 +13,7 @@ export default class CenterMode extends Component  {
         
         return (
           
-            <img src={`${baseUrl}/abstract0${i + 1}.png`} className="w-20" alt="1"/>
+            <img src={`${baseUrl}/abstract0${i + 1}.png`} className="w-10" alt="1"/>
             
         );
 
@@ -24,7 +24,7 @@ export default class CenterMode extends Component  {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay:  true
+      autoplay: false
     };
     return (
       
@@ -34,7 +34,7 @@ export default class CenterMode extends Component  {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-                <img src={baseUrl + "/abstract01.png"} className="w-50" alt="2"/>
+                <img src={baseUrl + "/abstract01.png"} className="w-50 mx-auto d-block" alt="2"/>
                 <div className="name">
                   <a href="https://tomtunguz.com/learning-online/">Tomasz Tunguz</a>
                 </div>
@@ -53,7 +53,7 @@ export default class CenterMode extends Component  {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-                <img src={baseUrl + "/abstract02.png"} className="w-50" alt="2"/>
+                <img src={baseUrl + "/abstract02.png"} className="w-50 mx-auto d-block" alt="2"/>
                 <div className="name">
                   <a href="https://twitter.com/Jamie_Fiedler/status/809204226882682880">Jamie Fiedler</a>
                 </div>
@@ -71,7 +71,7 @@ export default class CenterMode extends Component  {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-                <img src={baseUrl + "/abstract03.png"} className="w-50" alt="2"/>
+                <img src={baseUrl + "/abstract03.png"} className="w-50 mx-auto d-block" alt="2"/>
                 <div className="name">
                   <a href="https://twitter.com/chrisgscott/status/763090310851211264">Chris Scott</a>
                 </div>
@@ -89,7 +89,7 @@ export default class CenterMode extends Component  {
           <div className="container-fluid">
             <div className="row">
               <div className="col-sm-4 col-md-4 col-xs-4 col-lg-4">
-                <img src={baseUrl + "/abstract04.png"} className="w-50" alt="2"/>
+                <img src={baseUrl + "/abstract04.png"} className="w-50 mx-auto d-block" alt="2"/>
                 <div className="name">
                   <a href="https://twitter.com/SeanMEverett/status/754354508264726528">Sean Everett</a>
                 </div>

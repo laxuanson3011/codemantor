@@ -7,6 +7,7 @@ import Canter from './components/Canter';
 import Connectwith from './components/Connectwith';
 import CenterMode from './components/CenterMode';
 import Btnbecome from './components/bottoms/Btnbecome';
+import Btnget from './components/bottoms/Btnget';
 
 class App extends Component {
   render() {
@@ -19,20 +20,21 @@ class App extends Component {
                     <div className="center">
                       <div className="text-center">
                         <div className="page-header">
-                            <h1>Find a developer for</h1>
-                            <h1> live programming help & freelance jobs</h1>
-                            <div className="btn">
+                            <h1 className="display-5">Find a developer for</h1>
+                            <h1 className="display-5"> live programming help & freelance jobs</h1>
+                      
                               <Btngethelpnow/>
                               <Btnhowitworks/>
-                            </div>
+                            
                         </div>    
                       </div>
+                      <div className="box"> 
+                      
+                        <img src="https://next-cdn.codementor.io/static/images/landing-page/hero-l.png" className="rounded img-fluid" alt="codemen"/>
+                    
                     </div>
-                    <div className="box"> 
-                      <div className="img">
-                        <img src="https://next-cdn.codementor.io/static/images/landing-page/hero-l.png" className="img-responsive" alt="codemen"/>
-                      </div>
                     </div>
+                    
                   <div className="wrapper">
                     <h2 className="on">On-demand marketplace</h2>
                     <h2 className="on">for software developers</h2>
@@ -58,16 +60,15 @@ class App extends Component {
                   </div>
                   <div id="text">
                     <div className="txtbottom">
-                      <div className="text-center">
-                     
-                        <h2 className="getstarted">Get Started Today</h2>
-                        <div className="btn">
-                              <Btngethelpnow/>
-                              <div className="or">or</div>
-                              <Btnbecome/>
-                        </div>
                       
-                      </div>
+                        <h2 className="getstarted">Get Started Today</h2>
+                         
+                              <Btnget/>
+                               <div className="tx">or</div>
+                              <Btnbecome/>
+                        
+                      
+                      
                     </div>
                   </div>
                   </div>

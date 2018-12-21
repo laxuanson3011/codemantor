@@ -1,0 +1,21 @@
+@media(min-width:300px){
+    .btn-get{
+        background-color: red;
+        border: 1px solid #fff;
+        color: #ffffff;
+        padding: 16px 32px;
+        margin: 1px;
+        font-size: 14px;  
+    }
+    }
+    @media (min-width: 600px){
+        .btn-get{
+            background-color: red;
+            border: 1px solid #fff;
+            color: #ffffff;
+            padding: 16px 32px;
+            position: absolute;
+            left:430px;
+            font-size: 14px;  
+        }
+    }
